@@ -79,4 +79,9 @@ Create a custom Service Account following the principle of least privilege:
 ## 7. Step 5: Testing the Pipeline
 
 1. Upload an image to the source Cloud Storage bucket.
-2. Check the destination Cloud Storage bucket to confirm that the processed image appears with the `processed-` prefix, showing reduced file size and adjusted dimensions (max 800x800).
+
+   ![Source Bucket Image](./source-bucket-result.png)
+
+2. Check the destination Cloud Storage bucket to confirm that the processed image appears with the `processed-` prefix and reduced file size.
+
+   ![Destination Bucket Processed Image](./destination-bucket-result.png)
