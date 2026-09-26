@@ -6,7 +6,7 @@ This document outlines the deployment of an event-driven, serverless image proce
 ---
 
 ## 2. Architecture Diagram
-![Architecture Diagram](./architecture-diagram.png)
+![Architecture Diagram](./Diagram.png)
 
 ---
 
