@@ -25,8 +25,6 @@ This document outlines the deployment of an event-driven, serverless image proce
    TOPIC=add_image
    gcloud pubsub topics create $TOPIC
 
-```
-
 ### b. Configure Storage Event Notification:
 
 1. Link the source bucket to publish an event to the Pub/Sub topic when an object is created:
@@ -36,10 +34,6 @@ gcloud storage buckets notifications create gs://SOURCE_BUCKET_NAME \
   --event-types=OBJECT_FINALIZE
 
 ```
-
-
-
----
 
 ## 5. Step 3: Cloud Run Function Configuration
 
